@@ -1,0 +1,394 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    height: 175px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.logo {
+   
+    width: 740px;
+   
+}
+
+.monlogo
+{
+    width: 500px;
+    height: 154px;
+    background-image: url("images/logo.png");
+    background-size: cover;
+    padding: 0px 15px;
+
+}
+
+.power
+{
+    width: 317px;
+
+}
+
+.power-logo
+{
+    width: 290px;
+    height: 80px;
+    background-image: url("images/poweredbygoogle.png");
+    background-size: cover;
+    margin: 48px 0px;
+}
+
+.award
+{
+    width: 212px;
+}
+
+.award-logo
+{
+    width: 100px;
+    height: 100px;
+    background-image: url("images/ischoolaward.png");
+    background-size: cover;
+    margin: 24px 0px;
+    margin-left: 80px;
+   
+}
+/*-----second navbar------------------*/
+
+.navbar2{
+   
+    height: 80px;
+    background-color: #3B3486;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.home{
+    width: 80px;
+    height: 60px;
+    margin-left: 30px;
+}
+
+.about
+{
+    width: 120px;
+    height: 60px;
+}
+
+.academic
+{
+    width: 140px;
+    height: 60px;
+
+}
+
+.school
+{
+    width: 105px;
+    height: 60px;
+}
+
+.admission
+{
+    width: 135px;
+    height: 60px;
+}
+
+.contact
+{
+    width: 120px;
+    height: 60px;
+}
+
+.privacy
+{
+    width: 145px;
+    height: 60px;
+}
+
+.home,.about,.academic,.school,.admission,.contact,.privacy,.facebook,.instagram,.youtube{
+    padding-top: 20px;
+    padding-left: 17px;
+}
+ a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.12rem;
+    font-weight: bold;
+}
+
+.facebook,.instagram,.youtube
+{
+    width: 50px;
+    height: 60px;
+    font-size: 20px;
+}
+
+.border
+{
+   transition-property: all;
+}
+.border:hover{
+   background-color: #b0aac0;
+
+}
+
+/*-------------hero section------------*/
+
+.hero-section
+{
+    width: 100%;
+    height: 540px;
+    background-image: url("images/slide3.jpg");
+    background-size: cover;
+    animation: changeitem 20s ease-in-out infinite;
+}
+
+@keyframes changeitem
+{
+    0%
+    {
+        background-image: url("images/slide3.jpg");
+    }
+
+    50%
+    {
+        background-image: url("images/slide2.jpg");
+
+    }
+
+   
+}
+
+.msg1
+{
+    width: 560px;
+    height: 130px;
+    font-size: 55px;
+    color: white;
+    font-weight: bold;
+    padding-left: 150px;
+    padding-top: 50px;
+
+}
+    
+
+.msg2
+{
+    width: 455px;
+    height: 118px;
+    font-size: 26px;
+    color: white;
+    padding-left: 150px;
+    padding-top: 70px;
+}
+/*--------vision section*/
+
+.vision
+{
+    display: flex;
+   
+    
+}
+.desk
+{
+    margin-top: 20px;
+    margin-left: 30px;
+    
+    width: 40%;
+    height: 500px;
+    background-color: #29335c;
+}
+
+.heading
+{
+    font-size: 24px;
+    color: white;
+    
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.text
+{
+    width: 437px;
+    height: 260px;
+    margin-left: 30px;
+    margin-top: 20px;
+
+    
+}
+
+.text p
+{
+    color: white;
+    font-size: 16px;
+    text-align: justify;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.readmore a
+{
+    font-size: 14px;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 30px;
+}
+
+.director
+{
+    width: 60%;
+    height: 600px;
+    margin-left: 30px;
+    margin-top: 20px;
+   
+   
+}
+
+.director_image
+{
+    
+    width: 100%;
+    height: 380px;
+
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+}
+.director_heading
+{
+    padding-top: 10px;
+}
+
+.director_text
+{
+  padding-right: 20px;
+}
+
+/*-----executive*/
+
+.executive
+{
+    width: 100%;
+    height: 490px;
+    background-color: #e3dede;
+}
+.executive h2
+{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.md-image
+{
+    width: 95%;
+    height: 400px;
+    /* background-color: red; */
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.md-img1
+{
+    width: 30%;
+    /* background-color: pink; */
+}
+
+.md-img2
+{
+    width: 35%;
+    /* background-color: pink; */
+}
+
+.md-img3
+{
+    width: 25%;
+    /* background-color: pink;*/
+} 
+ul
+{
+    list-style: none;
+    color: #515151;
+    padding: 0;
+    font-size: 16px;
+}
+li
+{
+    margin-top: 5px;
+}
+
+/*footer--------------------*/
+.address
+{
+    width: 50%;
+    height: 350px;
+    background-color:  #36486b;
+    /* margin-left: 20px; */
+    margin-top: 50px;
+}
+
+.about-janakpur
+{
+    width: 50%;
+    height: 350px;
+    background-color:  #36486b;
+  
+    margin-top: 50px;
+
+}
+
+footer
+{
+    display: flex;
+   
+}
+.widget-title
+{
+    font-size: 24px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+ p{
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+
+.about-janakpur p
+{
+   text-align: justify;
+   margin-right: 40px;
+}
+
+.about-janakpur a
+{
+    padding-top: 40px;
+    color: red;
+    font-weight: 500;
+    margin-left: 20px;
+  
+}
+
+/*---------copyright----------------*/
+.copyright
+{
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: white;
+    background-color: #163468;
+}
